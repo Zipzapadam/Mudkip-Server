@@ -509,6 +509,7 @@ exports.customavatars = {
 	'landothegod': 'odye.gif',
 	'princeharrison': 'princeharrison.gif',
 	'roxierosalinaxl': 'roxierosalinaxl.gif',
+	'Zipzapadam': 'odye.gif',
 };
 
 // Tournament announcements
