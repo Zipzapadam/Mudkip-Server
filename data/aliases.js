@@ -257,6 +257,7 @@ exports.BattleAliases = {
 	"cress": "Cresselia",
 	"cube": "Kyurem-Black",
 	"cune": "Suicune",
+	"crusader92": "Tauros",
 	"dnite": "Dragonite",
 	"don": "Groudon",
 	"dogars": "Koffing",
@@ -269,6 +270,7 @@ exports.BattleAliases = {
 	"hera": "Heracross",
 	"hippo": "Hippowdon",
 	"honch": "Honchkrow",
+	"kekecleon": "Kecleon",
 	"keld": "Keldeo",
 	"klef": "Klefki",
 	"kou": "Raikou",
@@ -304,8 +306,10 @@ exports.BattleAliases = {
 	"ttar": "Tyranitar",
 	"venu": "Venusaur",
 	"whimsi": "Whimsicott",
+	"xerow": "Fletchinder",
 	"zam": "Alakazam",
 	"zard": "Charizard",
+	"zip": "Barboach",
 	"ohmagod":"Plasmanta",
 
 	// moves
