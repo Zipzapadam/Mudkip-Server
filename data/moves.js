@@ -1004,7 +1004,7 @@ exports.BattleMovedex = {
 		},
 		secondary: false,
 		target: "self",
-		type: "Normal
+		type: "Normal",
 	},
 	"bidoofsrevenge": {
 		accuracy: true,
