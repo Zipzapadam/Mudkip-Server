@@ -1004,8 +1004,27 @@ exports.BattleMovedex = {
 		},
 		secondary: false,
 		target: "self",
-		type: "Normal"
+		type: "Normal
 	},
+	"bidoofsrevenge": {
+		accuracy: true,
+		basePower: 500,
+		category: "Physical",
+		desc: "Has a 100% chance to confuse the target and lower its Defense and Special Attack by 1 stage. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If this move is successful, the weather changes to rain unless it is already in effect, and the user gains the effects of Aqua Ring and Magic Coat.",
+		shortDesc: "Does many things turn 1. Can't move turn 2.",
+		id: "bidoofsrevenge",
+		isNonstandard: true,
+		name: "Bidoof's Revenge",
+		pp: 10,
+		priority: 5,
+		flags: {contact: 1, recharge: 1, protect: 1, mirror: 1},
+		drain: [1, 2],
+		onTry: function (pokemon) {
+			if (pokemon.template.name !== 'Bidoof') {
+				this.add('-fail', pokemon, 'move: Bidoof\'s Revenge');
+				return null;
+			}
+		},
 	"bind": {
 		num: 20,
 		accuracy: 85,
