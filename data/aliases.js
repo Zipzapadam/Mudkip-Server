@@ -259,6 +259,7 @@ exports.BattleAliases = {
 	"cube": "Kyurem-Black",
 	"cune": "Suicune",
 	"crusader92": "Tauros",
+	"dg9": "Corphish", 
 	"dnite": "Dragonite",
 	"don": "Groudon",
 	"dogars": "Koffing",
