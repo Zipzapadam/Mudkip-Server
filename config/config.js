@@ -162,7 +162,7 @@ exports.inactiveuserthreshold = 1000 * 60 * 60;
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
-	'Sir Drifblim':'drifblim.png',
+	'Zipzapadam':'blueshrek.png',
 };
 
 // Tournament announcements
@@ -235,7 +235,6 @@ exports.grouplist = [
 		id: "admin",
 		name: "Administrator",
 		root: true,
-		globalonly: true
 	},
 	{
 		symbol: '#',
@@ -245,6 +244,20 @@ exports.grouplist = [
 		jurisdiction: 'u',
 		roomleader: true,
 		roomonly: true
+	},
+	{
+	
+		symbol: '^',
+		id: "god",
+		name: "God",
+		inherit: '&',
+		jurisdiction: 'u',
+		roommod: true,
+		roomdriver: true,
+		roomsubdriver: true,
+		roomonly: true,
+		tournamentsmanagement: true,
+		rmall: true
 	},
 	{
 		symbol: '&',
