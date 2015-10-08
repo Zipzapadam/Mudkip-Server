@@ -1,5 +1,5 @@
 // The server ID - a unique ID describing this Showdown server
-exports.serverid = 'mudkipguy';
+exports.serverid = 'zipzapadam'';
 
 // The server token - to access the login database and ladder on pokemonshowdown.com
 //   This token must be registered for accessing the ladder, but you will
@@ -162,7 +162,7 @@ exports.inactiveuserthreshold = 1000 * 60 * 60;
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
-	'ppn':'charizard_ppn.gif',
+	'Sir Drifblim':'drifblim.png',
 };
 
 // Tournament announcements
