@@ -251,6 +251,7 @@ exports.BattleAliases = {
 	"aegi": "Aegislash",
 	"aegiblade": "Aegislash-Blade",
 	"aegis": "Aegislash",
+	"bad": "Febass",
 	"bliss": "Blissey",
 	"chomp": "Garchomp",
 	"chupps": "Pancham",
@@ -264,6 +265,7 @@ exports.BattleAliases = {
 	"don": "Groudon",
 	"dogars": "Koffing",
 	"ekiller": "Arceus",
+	"endurr": "Febass",
 	"esca": "Escavalier",
 	"ferro": "Ferrothorn",
 	"forry": "Forretress",
@@ -272,6 +274,8 @@ exports.BattleAliases = {
 	"hera": "Heracross",
 	"hippo": "Hippowdon",
 	"honch": "Honchkrow",
+	"icy": "Weavile",
+	"keepingiticy": "Weavile",
 	"kekecleon": "Kecleon",
 	"keld": "Keldeo",
 	"kevin": "Metagross",
@@ -314,6 +318,8 @@ exports.BattleAliases = {
 	"zam": "Alakazam",
 	"zard": "Charizard",
 	"zip": "Barboach",
+	"zipzap": "Camerupt",
+	"zipzapadam": "Camerupt-Mega",
 	"ohmagod":"Plasmanta",
 
 	// moves
